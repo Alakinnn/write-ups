@@ -1,0 +1,330 @@
+{
+  "main": {
+    "id": "57dc6436f0a4a7a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e1b86929e6999b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36551cc3d037c2a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "4d163a215bd9f44a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Getting_Started/Getting_Started.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Getting_Started"
+            }
+          },
+          {
+            "id": "6602304449726e5d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Public_Exploits_1.png"
+              },
+              "icon": "lucide-image",
+              "title": "Public_Exploits_1"
+            }
+          },
+          {
+            "id": "d6a2c4d036e25b1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Glossary_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary_Hub"
+            }
+          },
+          {
+            "id": "fb312b95ba91c684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Glossary_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary_Hub"
+            }
+          },
+          {
+            "id": "fe35ccf32c14cbe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Glossary_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary_Hub"
+            }
+          },
+          {
+            "id": "405ef0855281b7a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Types_Of_Shell/Reverse_Shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reverse_Shell"
+            }
+          },
+          {
+            "id": "4dfbebea93ae17f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Glossary_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary_Hub"
+            }
+          },
+          {
+            "id": "c0a50f7e1cc73bff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Types_Of_Shell/Web_Shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Web_Shell"
+            }
+          },
+          {
+            "id": "e94dfc21d813536e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary/Glossary_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Glossary_Hub"
+            }
+          },
+          {
+            "id": "b331a6717367e939",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Screenshot 2024-12-09 at 22.05.27.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot 2024-12-09 at 22.05.27"
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f61f351201e31aae",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9ef35a0e318e26c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b46f23bf0362d98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aebde401ccfd26e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "43530ff2af61b720",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8fd9496f5b5aeca9",
+    "type": "split",
+    "children": [
+      {
+        "id": "677a87c06a645d7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b6c0a88b73a0d65",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "images/Screenshot 2024-12-09 at 22.05.27.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Screenshot 2024-12-09 at 22.05.27"
+            }
+          },
+          {
+            "id": "223465171d1551d7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "images/Screenshot 2024-12-09 at 22.05.27.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Screenshot 2024-12-09 at 22.05.27"
+            }
+          },
+          {
+            "id": "b11da3e269540d5c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bcf8de9b99716c16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "images/Screenshot 2024-12-09 at 22.05.27.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Screenshot 2024-12-09 at 22.05.27"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7b46f23bf0362d98",
+  "lastOpenFiles": [
+    "HTB_PenTest/Getting_Started/Privilege_Escalation.md",
+    "images/Screenshot 2024-12-09 at 22.32.10.png",
+    "images/Screenshot 2024-12-09 at 22.30.38.png",
+    "images/Screenshot 2024-12-09 at 22.17.42.png",
+    "images/Screenshot 2024-12-09 at 22.11.15.png",
+    "HTB_PenTest/Getting_Started/Public_Exploits.md",
+    "images/Screenshot 2024-12-09 at 22.05.27.png",
+    "Resources/Resources_Hub.md",
+    "Glossary/Glossary_Hub.md",
+    "HTB_PenTest/Getting_Started/Getting_Started.md",
+    "Glossary/Types_Of_Shell/Web_Shell.md",
+    "Resources",
+    "Glossary/Types_Of_Shell/Bind_Shell.md",
+    "Glossary/Types_Of_Shell/Reverse_Shell.md",
+    "Glossary/Types_Of_Shell",
+    "images/Public_Exploits_1.png",
+    "Glossary",
+    "images",
+    "images/Public_Exploits_6.png",
+    "images/Public_Exploits_5.png",
+    "images/Public_Exploits_4.png",
+    "images/Public_Exploits_3.png",
+    "HTB_PenTest/Getting_Started",
+    "README.md",
+    "HTB_PenTest"
+  ]
+}
