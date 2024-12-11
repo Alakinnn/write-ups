@@ -44,5 +44,6 @@ This is dependable on the access of compromised user. There are two scenarios
 	- there will be 2 files, key and key.pub. the first is used for -i flag when ssh
 	- the pub file is placed in the .ssh/authorized_keys
 
-
+### OPSEC
+[[OPSEC]]
 
