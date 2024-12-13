@@ -47,3 +47,6 @@ This is dependable on the access of compromised user. There are two scenarios
 ### OPSEC
 [[OPSEC]]
 
+### [[File Transferring]]
+> File Transferring is important, whether to download from host or upload to host. It is import to learn the basics of file transferring rather than using automated.
+

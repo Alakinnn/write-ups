@@ -23,3 +23,16 @@
 - A list of commands to escalate on Linux and Windows respectively:
 	- https://gtfobins.github.io/
 	- https://lolbas-project.github.io/#
+
+## OWASP Top 10
+One of the most famous frameworks for checking on which vulnerability to look for.
+OWASP Juice Shop is a site with all of the 10 vulnerabilities for practice.
+https://owasp.org/www-project-juice-shop/
+
+## HTB
+A tons of labs to do:
+https://app.hackthebox.com/tracks: Featuring past CTFs competitions and other learning subjects like hardware hacking
+
+https://app.hackthebox.com/challenges: challenges from users
+
+https://academy.hackthebox.com/module/77/section/731 - For more info
