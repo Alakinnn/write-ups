@@ -35,10 +35,14 @@
             "id": "d76aaea12ed1d7cf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "HTB_Machine/HTB_Machine_Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTB_Machine_Hub"
             }
           }
         ],
@@ -185,11 +189,12 @@
   },
   "active": "d76aaea12ed1d7cf",
   "lastOpenFiles": [
+    "HTB_Machine/Nibbles/Nibbles.md",
+    "HTB_Machine/HTB_Machine_Hub.md",
     "images/Screenshot 2024-12-13 at 19.40.00.png",
     "images/Pasted image 20241212003233.png",
     "images/Pasted image 20241212004027.png",
     "images/Pasted image 20241212003334.png",
-    "HTB_Machine/Nibbles/Nibbles.md",
     "images/Screenshot 2024-12-13 at 20.17.59.png",
     "images/Screenshot 2024-12-13 at 20.16.37.png",
     "images/Screenshot 2024-12-13 at 20.08.17.png",
@@ -199,7 +204,6 @@
     "Resources/Resources_Hub.md",
     "Glossary/File Transferring.md",
     "Glossary/Glossary_Hub.md",
-    "images/Screenshot 2024-12-13 at 20.00.17.png",
     "HTB_PenTest/Getting_Started/Public_Exploits.md",
     "HTB_Machine/Nibbles",
     "HTB_Machine",
