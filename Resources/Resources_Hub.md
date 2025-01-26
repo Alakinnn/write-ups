@@ -1,3 +1,15 @@
+
+## My Scripts
+[[My_Scripts]]
+
+## ReadMe
+[[README]]
+
+## !!IMPORTANT NOTES!!
+[[Important_Notes]]
+
+## !!WIKI!!
+https://book.hacktricks.wiki/en/index.html
 ## Privilege Escalation
 
 - A checklist for once initial access to a box/machine is gained: https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist
@@ -36,3 +48,12 @@ https://app.hackthebox.com/tracks: Featuring past CTFs competitions and other le
 https://app.hackthebox.com/challenges: challenges from users
 
 https://academy.hackthebox.com/module/77/section/731 - For more info
+
+## NMap
+- Some strategies when scanning [https://nmap.org/book/host-discovery-strategies.html](https://nmap.org/book/host-discovery-strategies.html)
+
+## XML to HTML
+xsltproc is a tool to do this conversion
+
+## NSE
+https://nmap.org/nsedoc/scripts/

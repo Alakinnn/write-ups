@@ -1,6 +1,8 @@
 > [!NOTE]
 > This part only includes definition, not actual resources. For the latter, refer to [[Resources_Hub|Resources_Hub]]
 
+## Machines Played (HTB)
+[[HTB_Machine_Hub]]
 ## Shell
 Shell(s) are medium/application to help the attack host to execute commands remotely without having to authenticate or re-exploit the vulnerability again by placing the shell(s) inside of the compromised machine, listening to our commands. There are three types of shell:
 [[Reverse_Shell]]

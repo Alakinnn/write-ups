@@ -4,49 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "6e1b86929e6999b8",
+        "id": "8b71469031a52687",
         "type": "tabs",
         "children": [
           {
-            "id": "1d95e7c47913d5bc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20241212003233.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241212003233"
-            }
-          },
-          {
-            "id": "fbef07870f85f669",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20241212003334.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241212003334"
-            }
-          },
-          {
-            "id": "d76aaea12ed1d7cf",
+            "id": "46a12e04b2fca011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_Machine/HTB_Machine_Hub.md",
+                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTB_Machine_Hub"
+              "title": "Windows_RMP"
+            }
+          },
+          {
+            "id": "79e7bf1dd55cc43b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows_RMP"
+            }
+          },
+          {
+            "id": "5f64897af5237186",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows_RMP"
+            }
+          },
+          {
+            "id": "9557b4d8e9841e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Remote_Management_Protocols.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Remote_Management_Protocols"
+            }
+          },
+          {
+            "id": "6487d39e0e227367",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +105,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LinEn",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 304.5
   },
   "right": {
     "id": "8fd9496f5b5aeca9",
@@ -169,13 +197,23 @@
               "icon": "lucide-list",
               "title": "Outline of Screenshot 2024-12-09 at 22.05.27"
             }
+          },
+          {
+            "id": "49767dd06177ceb3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,44 +222,58 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d76aaea12ed1d7cf",
+  "active": "6487d39e0e227367",
   "lastOpenFiles": [
-    "HTB_Machine/Nibbles/Nibbles.md",
-    "HTB_Machine/HTB_Machine_Hub.md",
-    "images/Screenshot 2024-12-13 at 19.40.00.png",
-    "images/Pasted image 20241212003233.png",
-    "images/Pasted image 20241212004027.png",
-    "images/Pasted image 20241212003334.png",
-    "images/Screenshot 2024-12-13 at 20.17.59.png",
-    "images/Screenshot 2024-12-13 at 20.16.37.png",
-    "images/Screenshot 2024-12-13 at 20.08.17.png",
-    "images/Screenshot 2024-12-13 at 20.06.43.png",
-    "images/Screenshot 2024-12-13 at 20.05.33.png",
-    "images/Screenshot 2024-12-13 at 20.04.33.png",
+    "HTB_PenTest/Footprinting/Footprinting.md",
+    "HTB_PenTest/Footprinting/Enumeration_Technology.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Skills_Assessment.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
+    "images/Pasted image 20250126165020.png",
+    "images/Pasted image 20250126164911.png",
+    "images/Pasted image 20250126164755.png",
+    "images/Pasted image 20250126164719.png",
+    "images/Pasted image 20250126164519.png",
+    "images/Pasted image 20250126164452.png",
+    "images/Pasted image 20250126164333.png",
+    "images/Pasted image 20250126164215.png",
+    "images/Pasted image 20250126164132.png",
+    "images/Pasted image 20250126164115.png",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/RDP.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/SMTP.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/SNMP.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/NFS.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/IPMI.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/ORACLE_TNS.md",
     "Resources/Resources_Hub.md",
-    "Glossary/File Transferring.md",
-    "Glossary/Glossary_Hub.md",
+    "Resources/Important_Notes.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_RMP.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Remote_Management_Protocols.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/FTP.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols/Rsync.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols/R-Services.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/WMI.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/WinRM.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols",
+    "Untitled.md",
+    "HTB_PenTest/Footprinting/Remote_Management_Protocols",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
     "HTB_PenTest/Getting_Started/Public_Exploits.md",
-    "HTB_Machine/Nibbles",
-    "HTB_Machine",
-    "Glossary/OPSEC.md",
-    "Cyber_Advent/day_1.md",
-    "Cyber_Advent/Cyber_Advent.md",
-    "HTB_PenTest/Getting_Started/Privilege_Escalation.md",
-    "Cyber_Advent",
-    "README.md",
-    "HTB_PenTest/Getting_Started/Getting_Started.md",
-    "Glossary/Types_Of_Shell/Web_Shell.md",
-    "Resources",
-    "Glossary/Types_Of_Shell/Bind_Shell.md",
-    "Glossary/Types_Of_Shell/Reverse_Shell.md",
-    "Glossary/Types_Of_Shell",
-    "Glossary",
-    "images",
-    "HTB_PenTest/Getting_Started",
-    "HTB_PenTest"
+    "Resources/My_Scripts.md",
+    "Resources/Oracle-Tools-setup.sh.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/IMAP_POP3.md",
+    "IMAP",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration",
+    "Untitled.canvas",
+    "HTB_PenTest/Footprinting",
+    "HTB_PenTest/Enumeration_With_NMap",
+    "HTB_PenTest/Getting_Started/Getting_Started_Knowledge_Check",
+    "HTB_Machine/Nibbles"
   ]
 }
