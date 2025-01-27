@@ -67,14 +67,46 @@
             "id": "6487d39e0e227367",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protocol_Enumeration"
+            }
+          },
+          {
+            "id": "ffc1ca45fa006856",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Protocol_Enumeration"
+            }
+          },
+          {
+            "id": "bbf12b515802738d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Medium_WriteUp"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -226,26 +258,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6487d39e0e227367",
+  "active": "bbf12b515802738d",
   "lastOpenFiles": [
+    "Glossary/Glossary_Hub.md",
+    "images/Pasted image 20250126192228.png",
     "HTB_PenTest/Footprinting/Footprinting.md",
-    "HTB_PenTest/Footprinting/Enumeration_Technology.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Skills_Assessment.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
+    "images/Pasted image 20250126192143.png",
+    "images/Pasted image 20250126192118.png",
+    "images/Pasted image 20250126192107.png",
+    "images/Pasted image 20250126190204.png",
+    "images/Pasted image 20250126190006.png",
+    "images/Pasted image 20250126185901.png",
+    "images/Pasted image 20250126185829.png",
+    "images/Pasted image 20250126185814.png",
+    "images/Pasted image 20250126185725.png",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/IMAP_POP3.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/SNMP.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
+    "README.md",
+    "HTB_PenTest/Footprinting/Domain_Information.md",
+    "MYSQL.md",
+    "HTB_PenTest/Footprinting/Enumeration_Technology.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
-    "images/Pasted image 20250126165020.png",
-    "images/Pasted image 20250126164911.png",
-    "images/Pasted image 20250126164755.png",
-    "images/Pasted image 20250126164719.png",
-    "images/Pasted image 20250126164519.png",
-    "images/Pasted image 20250126164452.png",
-    "images/Pasted image 20250126164333.png",
-    "images/Pasted image 20250126164215.png",
-    "images/Pasted image 20250126164132.png",
-    "images/Pasted image 20250126164115.png",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/RDP.md",
     "HTB_PenTest/Footprinting/Skills_Assessment",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/SMTP.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/SNMP.md",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/NFS.md",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/IPMI.md",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/ORACLE_TNS.md",
@@ -258,16 +297,9 @@
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols/R-Services.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/WMI.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/WinRM.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols",
-    "Untitled.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
-    "HTB_PenTest/Getting_Started/Public_Exploits.md",
-    "Resources/My_Scripts.md",
-    "Resources/Oracle-Tools-setup.sh.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/IMAP_POP3.md",
     "IMAP",
     "HTB_PenTest/Footprinting/Protocol_Enumeration",
     "Untitled.canvas",
