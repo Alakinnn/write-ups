@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 200
   },
   "right": {
     "id": "8fd9496f5b5aeca9",
@@ -258,13 +258,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bbf12b515802738d",
+  "active": "7b46f23bf0362d98",
   "lastOpenFiles": [
+    "Dreamhack/Learn",
+    "Dreamhack",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.pdf",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.pdf",
+    "HTB_PenTest/Enumeration_With_NMap/Enumeration_With_NMap.md",
+    "HTB_PenTest/Enumeration_With_NMap/Bypassing_IDS_IPS.md",
+    "HTB_PenTest/Enumeration_With_NMap/Write_Ups.md",
+    "HTB_Machine/Nibbles/Nibbles.md",
     "Glossary/Glossary_Hub.md",
     "images/Pasted image 20250126192228.png",
     "HTB_PenTest/Footprinting/Footprinting.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Skills_Assessment.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
     "images/Pasted image 20250126192143.png",
     "images/Pasted image 20250126192118.png",
     "images/Pasted image 20250126192107.png",
@@ -281,7 +290,6 @@
     "HTB_PenTest/Footprinting/Domain_Information.md",
     "MYSQL.md",
     "HTB_PenTest/Footprinting/Enumeration_Technology.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/RDP.md",
     "HTB_PenTest/Footprinting/Skills_Assessment",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/SMTP.md",
@@ -292,20 +300,12 @@
     "Resources/Important_Notes.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_RMP.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Remote_Management_Protocols.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/FTP.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols/Rsync.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols/R-Services.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/WMI.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols",
     "HTB_PenTest/Footprinting/Remote_Management_Protocols",
     "IMAP",
     "HTB_PenTest/Footprinting/Protocol_Enumeration",
     "Untitled.canvas",
-    "HTB_PenTest/Footprinting",
-    "HTB_PenTest/Enumeration_With_NMap",
-    "HTB_PenTest/Getting_Started/Getting_Started_Knowledge_Check",
-    "HTB_Machine/Nibbles"
+    "HTB_PenTest/Footprinting"
   ]
 }
