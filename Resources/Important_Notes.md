@@ -5,8 +5,12 @@ NCat can connect to a service on _IP_ _PORT_ . NCat can only connect up to port 
 ## CTF
 Forensics: https://academy.hackthebox.com/module/details/237
 Reversing/Reverse Engineering: https://app.hackthebox.com/tracks/Intro-to-Reversing
+	https://flare-on.com/
+	https://0xinfection.github.io/reversing/
+	https://play.picoctf.org/practice?category=3&difficulty=2&page=1
 Binary Exploitation: https://app.hackthebox.com/tracks/Intro-to-Binary-Exploitation
 Miscellaneous: https://github.com/winterrdog/tryhackme-free-rooms
+Crypto: https://cryptohack.org/
 
 ## Pre-Pro-Lab / Tracks
 https://app.hackthebox.com/starting-point

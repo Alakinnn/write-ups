@@ -97,16 +97,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
+                "file": "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Medium_WriteUp"
+              "title": "Security_Assessments"
+            }
+          },
+          {
+            "id": "5d5e4a3142947a39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/MYSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MYSQL"
+            }
+          },
+          {
+            "id": "7c331400957945af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time_To_Learn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time_To_Learn"
+            }
+          },
+          {
+            "id": "ab6f737c7c457bda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1stMay2025"
+            }
+          },
+          {
+            "id": "989eb11aa37ef788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Time_To_Learn.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time_To_Learn"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -125,7 +181,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -258,12 +315,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b46f23bf0362d98",
+  "active": "989eb11aa37ef788",
   "lastOpenFiles": [
+    "images/Pasted image 20250201102913.png",
+    "Resources/Important_Notes.md",
+    "Resources/Resources_Hub.md",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.md",
+    "images/Pasted image 20250201103537.png",
+    "images/Pasted image 20250201103450.png",
+    "images/Pasted image 20250201103333.png",
+    "images/Pasted image 20250201103229.png",
+    "images/Pasted image 20250201103223.png",
+    "images/Pasted image 20250201103118.png",
+    "images/Pasted image 20250201102937.png",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025",
+    "Dreamhack/Dreamhack_CTFs",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/MYSQL.md",
+    "Time_To_Learn.md",
+    "README.md",
+    "Resources/My_Scripts.md",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Sec_Assessments.md",
+    "HTB_PenTest/Modules.md",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
+    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Untitled",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments",
+    "HTB_PenTest/Vulnerability_Assessment",
     "Dreamhack/Learn",
     "Dreamhack",
     "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.pdf",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.pdf",
     "HTB_PenTest/Enumeration_With_NMap/Enumeration_With_NMap.md",
@@ -275,37 +356,12 @@
     "HTB_PenTest/Footprinting/Footprinting.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Skills_Assessment.md",
     "images/Pasted image 20250126192143.png",
-    "images/Pasted image 20250126192118.png",
-    "images/Pasted image 20250126192107.png",
-    "images/Pasted image 20250126190204.png",
-    "images/Pasted image 20250126190006.png",
-    "images/Pasted image 20250126185901.png",
-    "images/Pasted image 20250126185829.png",
-    "images/Pasted image 20250126185814.png",
-    "images/Pasted image 20250126185725.png",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/IMAP_POP3.md",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/SNMP.md",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
-    "README.md",
     "HTB_PenTest/Footprinting/Domain_Information.md",
-    "MYSQL.md",
     "HTB_PenTest/Footprinting/Enumeration_Technology.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols/RDP.md",
     "HTB_PenTest/Footprinting/Skills_Assessment",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/SMTP.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/NFS.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/IPMI.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/ORACLE_TNS.md",
-    "Resources/Resources_Hub.md",
-    "Resources/Important_Notes.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_RMP.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Remote_Management_Protocols.md",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_Management_Protocols",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols/Linux_Management_Protocols",
-    "HTB_PenTest/Footprinting/Remote_Management_Protocols",
-    "IMAP",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration",
-    "Untitled.canvas",
-    "HTB_PenTest/Footprinting"
+    "Untitled.canvas"
   ]
 }
