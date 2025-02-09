@@ -4,165 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "8b71469031a52687",
+        "id": "732d6ccf4f15c91d",
         "type": "tabs",
         "children": [
           {
-            "id": "46a12e04b2fca011",
+            "id": "3538c123c614ab6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
+                "file": "HTB_PenTest/Modules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows_RMP"
+              "title": "Modules"
             }
           },
           {
-            "id": "79e7bf1dd55cc43b",
+            "id": "84f2ba9de3ad3187",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
+                "file": "HTB_PenTest/Modules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows_RMP"
+              "title": "Modules"
             }
           },
           {
-            "id": "5f64897af5237186",
+            "id": "a70fe7be37860388",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Windows_RMP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows_RMP"
-            }
-          },
-          {
-            "id": "9557b4d8e9841e1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Footprinting/Remote_Management_Protocols/Remote_Management_Protocols.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Remote_Management_Protocols"
-            }
-          },
-          {
-            "id": "6487d39e0e227367",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Protocol_Enumeration"
-            }
-          },
-          {
-            "id": "ffc1ca45fa006856",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Protocol_Enumeration"
-            }
-          },
-          {
-            "id": "bbf12b515802738d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Security_Assessments"
-            }
-          },
-          {
-            "id": "5d5e4a3142947a39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Footprinting/Protocol_Enumeration/MYSQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MYSQL"
-            }
-          },
-          {
-            "id": "7c331400957945af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time_To_Learn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Time_To_Learn"
-            }
-          },
-          {
-            "id": "ab6f737c7c457bda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1stMay2025"
-            }
-          },
-          {
-            "id": "989eb11aa37ef788",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Time_To_Learn.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Time_To_Learn"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Payload",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,7 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 245.5
   },
   "right": {
     "id": "8fd9496f5b5aeca9",
@@ -315,53 +199,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "989eb11aa37ef788",
+  "active": "a70fe7be37860388",
   "lastOpenFiles": [
+    "HTB_PenTest/Payload_And_Shells/Payloads_And_Shell.md",
+    "HTB_PenTest/Modules.md",
+    "HTB_PenTest/Payload_And_Shells",
+    "HTB_PenTest/File_Transfers/Miscellaneous_Files_Transnfer_Methods.md",
+    "HTB_PenTest/File_Transfers/Living_Off_The_Lands.md",
+    "HTB_PenTest/File_Transfers/Linux_FT_Methods.md",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.pdf",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.md",
+    "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
+    "Time_To_Learn.md",
+    "images/Pasted image 20250209135841.png",
+    "images/Pasted image 20250209141425.png",
+    "HTB_PenTest/File_Transfers/File_Transfers.md",
+    "images/Pasted image 20250209141418.png",
+    "HTB_PenTest/File_Transfers/FT_Introduction.md",
+    "HTB_PenTest/File_Transfers/Transferring_Files_with_code.md",
+    "README.md",
+    "HTB_PenTest/File_Transfers/Windows_FT_Methods.md",
+    "Resources/Resources_Hub.md",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Sec_Assessments.md",
+    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
+    "HTB_PenTest/File_Transfers",
     "images/Pasted image 20250201102913.png",
     "Resources/Important_Notes.md",
-    "Resources/Resources_Hub.md",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.md",
     "images/Pasted image 20250201103537.png",
     "images/Pasted image 20250201103450.png",
     "images/Pasted image 20250201103333.png",
     "images/Pasted image 20250201103229.png",
     "images/Pasted image 20250201103223.png",
     "images/Pasted image 20250201103118.png",
-    "images/Pasted image 20250201102937.png",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
     "Dreamhack/Dreamhack_CTFs/1stMay2025",
     "Dreamhack/Dreamhack_CTFs",
     "HTB_PenTest/Footprinting/Protocol_Enumeration/MYSQL.md",
-    "Time_To_Learn.md",
-    "README.md",
     "Resources/My_Scripts.md",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Sec_Assessments.md",
-    "HTB_PenTest/Modules.md",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
     "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
     "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Untitled",
     "HTB_PenTest/Vulnerability_Assessment/Security_Assessments",
     "HTB_PenTest/Vulnerability_Assessment",
     "Dreamhack/Learn",
     "Dreamhack",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.pdf",
     "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.pdf",
     "HTB_PenTest/Enumeration_With_NMap/Enumeration_With_NMap.md",
     "HTB_PenTest/Enumeration_With_NMap/Bypassing_IDS_IPS.md",
     "HTB_PenTest/Enumeration_With_NMap/Write_Ups.md",
     "HTB_Machine/Nibbles/Nibbles.md",
-    "Glossary/Glossary_Hub.md",
-    "images/Pasted image 20250126192228.png",
-    "HTB_PenTest/Footprinting/Footprinting.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Skills_Assessment.md",
-    "images/Pasted image 20250126192143.png",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/IMAP_POP3.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/SNMP.md",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/Protocol_Enumeration.md",
-    "HTB_PenTest/Footprinting/Domain_Information.md",
-    "HTB_PenTest/Footprinting/Enumeration_Technology.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment",
     "Untitled.canvas"
   ]
 }
