@@ -10,6 +10,9 @@
 
 ## !!WIKI!!
 https://book.hacktricks.wiki/en/index.html
+
+## Courses/Videos by IppSec
+https://ippsec.rocks/?#
 ## Privilege Escalation
 
 - A checklist for once initial access to a box/machine is gained: https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist
