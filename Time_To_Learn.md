@@ -27,3 +27,12 @@
 | **Total**                                | 691             |
 
 5hrs HTB, 3hr of THM/
+
+## File upload vulnerabilities
+## OAuth authentication
+## HTTP Host header attacks
+## SQL injection
+## Cross-site scripting
+## Cross-site request forgery (CSRF)
+## XML external entity (XXE) injection
+## Clickjacking

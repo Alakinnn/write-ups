@@ -4,53 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "732d6ccf4f15c91d",
+        "id": "337b2761e1439e47",
         "type": "tabs",
         "children": [
           {
-            "id": "84f2ba9de3ad3187",
+            "id": "edb927b5d03a70b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "HTB_PenTest/Modules.md",
-                "mode": "source",
-                "source": false
+                "file": "Dreamhack/DH_CTFs/1stMay2025/Pearfect_Markdown.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Modules"
+              "icon": "lucide-file-text",
+              "title": "Pearfect_Markdown"
             }
           },
           {
-            "id": "46bba7eff6dd77ef",
+            "id": "b15b3bcb4f3c93af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Payload_And_Shells/Payloads_And_Shell.md",
+                "file": "HTB_PenTest/Footprinting/Footprinting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Payloads_And_Shell"
-            }
-          },
-          {
-            "id": "69647a571299e44c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_PenTest/Payload_And_Shells/PnS_Skills_Assessment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PnS_Skills_Assessment"
+              "title": "Footprinting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "payl",
+                "query": "achiev",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,54 +186,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "46bba7eff6dd77ef",
+  "active": "edb927b5d03a70b7",
   "lastOpenFiles": [
-    "Payloads_And_Shell.md",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_SQLi_Lab.md",
+    "Pasted image 20250216200135.png",
+    "Pasted image 20250216200055.png",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_Blind_Attack.md",
+    "images/Pasted image 20250215160511.png",
     "HTB_PenTest/Payload_And_Shells/Payloads_And_Shell.md",
-    "HTB_PenTest/Payload_And_Shells/PnS_Skills_Assessment.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/Using_The_Metasploit_Framework.md",
+    "HTB_PenTest/Footprinting/Footprinting.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_Firewall_IDS_Evasion.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Writing_And_Importing_Modules.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Meterpreter.md",
+    "images/Pasted image 20250215210659.png",
+    "images/Pasted image 20250215205905.png",
+    "images/Pasted image 20250215205738.png",
+    "images/Pasted image 20250215205729.png",
+    "images/Pasted image 20250215205648.png",
+    "images/Pasted image 20250215204119.png",
+    "images/Pasted image 20250215202111.png",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Sessions_and_Jobs.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Targets.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Payloads.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Encoders.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Plugins.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework/Introduction_To_MSFConsole.md",
+    "HTB_PenTest/Using_The_Metasploit_Framework",
     "HTB_PenTest/Modules.md",
-    "images/Pasted image 20250211141644.png",
-    "images/Pasted image 20250210220654.png",
-    "Resources/Resources_Hub.md",
-    "Resources/Important_Notes.md",
-    "HTB_PenTest/Payload_And_Shells",
-    "HTB_PenTest/File_Transfers/Miscellaneous_Files_Transnfer_Methods.md",
-    "HTB_PenTest/File_Transfers/Living_Off_The_Lands.md",
-    "HTB_PenTest/File_Transfers/Linux_FT_Methods.md",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.pdf",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025/Pearfect_Markdown.md",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025/1stMay2025.md",
+    "HTB_PenTest/Payload_And_Shells/PnS_Skills_Assessment.md",
+    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/basic-operation.md",
+    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/rev-basic-1.md",
+    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/rev-basic-0.md",
+    "Dreamhack/DH_Wargames/DH_RE",
+    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner",
+    "Dreamhack/DH_Wargames",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_SQLi_Theory.md",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_Union_Attack.md",
     "Time_To_Learn.md",
-    "images/Pasted image 20250209135841.png",
-    "images/Pasted image 20250209141425.png",
-    "HTB_PenTest/File_Transfers/File_Transfers.md",
-    "images/Pasted image 20250209141418.png",
-    "HTB_PenTest/File_Transfers/FT_Introduction.md",
-    "HTB_PenTest/File_Transfers/Transferring_Files_with_code.md",
-    "README.md",
-    "HTB_PenTest/File_Transfers/Windows_FT_Methods.md",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Sec_Assessments.md",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Security_Assessments.md",
-    "HTB_PenTest/File_Transfers",
-    "images/Pasted image 20250201102913.png",
-    "images/Pasted image 20250201103537.png",
-    "images/Pasted image 20250201103450.png",
-    "images/Pasted image 20250201103333.png",
-    "images/Pasted image 20250201103229.png",
-    "Dreamhack/Dreamhack_CTFs/1stMay2025",
-    "Dreamhack/Dreamhack_CTFs",
-    "HTB_PenTest/Footprinting/Protocol_Enumeration/MYSQL.md",
-    "Resources/My_Scripts.md",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Medium_WriteUp.md",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments/Untitled",
-    "HTB_PenTest/Vulnerability_Assessment/Security_Assessments",
-    "HTB_PenTest/Vulnerability_Assessment",
-    "Dreamhack/Learn",
-    "Dreamhack",
-    "HTB_PenTest/Footprinting/Skills_Assessment/Hard_Writeup.md",
-    "HTB_PenTest/Enumeration_With_NMap/Enumeration_With_NMap.md",
-    "HTB_PenTest/Enumeration_With_NMap/Bypassing_IDS_IPS.md",
-    "HTB_PenTest/Enumeration_With_NMap/Write_Ups.md",
+    "Cyber_Advent/day_1.md",
+    "Cyber_Advent/Cyber_Advent.md",
+    "Dreamhack/DH_CTFs/1stMay2025/Pearfect_Markdown.md",
+    "Dreamhack/DH_CTFs/1stMay2025/Pearfect_Markdown.pdf",
+    "Portswigger/PS_Server_Side",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_NoSQLi",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi",
+    "Portswigger/PS_Server_Side/PS_Injection",
+    "Portswigger",
     "Untitled.canvas"
   ]
 }
