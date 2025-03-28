@@ -5,6 +5,8 @@
 ## ReadMe
 [[README]]
 
+## CTF
+https://github.com/apsdehal/awesome-ctf
 ## !!IMPORTANT NOTES!!
 [[Important_Notes]]
 
@@ -13,6 +15,13 @@ https://book.hacktricks.wiki/en/index.html
 
 ## Courses/Videos by IppSec
 https://ippsec.rocks/?#
+
+## Cheatsheet
+https://github.com/puzzithinker/cybersecurity_cheatsheets
+
+## Platform
+## Shell
+https://www.revshells.com/
 ## Privilege Escalation
 
 - A checklist for once initial access to a box/machine is gained: https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist

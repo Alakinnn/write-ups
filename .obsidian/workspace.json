@@ -4,53 +4,107 @@
     "type": "split",
     "children": [
       {
-        "id": "37cebdb5f212d4b5",
+        "id": "9e0a013b7e5ed3a0",
         "type": "tabs",
         "children": [
           {
-            "id": "ff6e8e2b1bf0ed4f",
+            "id": "ea1eb85bad670d33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Cracking_PWDs_With_Hashcat/Cracking_PWDs_With_Hashcat.md",
+                "file": "Important_Payloads/Hub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cracking_PWDs_With_Hashcat"
+              "title": "Hub"
             }
           },
           {
-            "id": "a75bfbe4afa7ea8c",
+            "id": "f6c02e5be64876c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB_PenTest/Password_Cracking/Password_Cracking.md",
+                "file": "Important_Payloads/Hub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Password_Cracking"
+              "title": "Hub"
             }
           },
           {
-            "id": "0def323f48385fb7",
+            "id": "915f0ad89e8049b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PC_Attacking_LSASS.md",
+                "file": "Important_Payloads/Hub.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PC_Attacking_LSASS"
+              "title": "Hub"
+            }
+          },
+          {
+            "id": "4c906fb85ef4a6fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTB_CBBH/CBBH_Web_Attacks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CBBH_Web_Attacks"
+            }
+          },
+          {
+            "id": "fb169be2e60d0c86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Important_Payloads/Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hub"
+            }
+          },
+          {
+            "id": "2b0047865c2f9fbb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20250320212254.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250320212254"
+            }
+          },
+          {
+            "id": "b12eb6d721df5d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CBBH_FI_PHP_Filters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CBBH_FI_PHP_Filters"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -82,10 +136,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbclient",
-                "matchingCase": false,
+                "query": "jinja",
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -203,54 +257,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0def323f48385fb7",
+  "active": "7b46f23bf0362d98",
   "lastOpenFiles": [
-    "images/Pasted image 20250215210659.png",
-    "images/Pasted image 20250215205905.png",
-    "images/Pasted image 20250215205738.png",
-    "images/Pasted image 20250215205729.png",
-    "images/Pasted image 20250215205648.png",
-    "images/Pasted image 20250215204119.png",
-    "images/Pasted image 20250215202111.png",
-    "images/Pasted image 20250215195132.png",
-    "images/Pasted image 20250215194919.png",
-    "images/Pasted image 20250215194908.png",
-    "images/Pasted image 20250215193416.png",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_Union_Attack.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_SQLi_Theory.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_SQLi_Lab.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_Blind_Attack.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi",
-    "Portswigger/PS_Server_Side/PS_Injection",
-    "Portswigger/PS_Server_Side",
-    "Portswigger",
-    "HTB_PenTest/Using_The_Metasploit_Framework/Using_The_Metasploit_Framework.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/Introduction_To_MSFConsole.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Writing_And_Importing_Modules.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Targets.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Sessions_and_Jobs.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Plugins.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Payloads.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Meterpreter.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_UTMF_Encoders.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework/HTB_Firewall_IDS_Evasion.md",
-    "HTB_PenTest/Using_The_Metasploit_Framework",
-    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/rev-basic-1.md",
-    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/rev-basic-0.md",
-    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner/basic-operation.md",
-    "Dreamhack/DH_Wargames/DH_RE/DH_Beginner",
-    "Dreamhack/DH_Wargames/DH_RE",
-    "Dreamhack/DH_Wargames",
-    "Dreamhack/DH_CTFs/1stMay2025/1stMay2025.md",
-    "Dreamhack/DH_CTFs/1stMay2025/Pearfect_Markdown.pdf",
-    "Dreamhack/DH_CTFs/1stMay2025/Pearfect_Markdown.md",
-    "Dreamhack/DH_CTFs/1stMay2025",
-    "HTB_PenTest/Password_Cracking/Password_Cracking.md",
-    "PC_Attacking_LSASS.md",
-    "PC_Attacking_SAM.md",
-    "PC_PWD_Mutations.md",
-    "PC_Network_Services.md",
-    "PC_Cred_Stuffing.md",
+    "Important_Payloads/Important_Commands_Content_Discovery.md",
+    "images/Pasted image 20250320214946.png",
+    "images/Pasted image 20250320214859.png",
+    "images/Pasted image 20250320212254.png",
+    "Important_Payloads/Important_Payloads_File_Inclusion.md",
+    "Important_Payloads/Important_Payloads_XSS.md",
+    "Important_Payloads/Important_Payloads_CSRF.md",
+    "Important_Payloads/Important_Payloads_SQL_Injection.md",
+    "Important_Payloads/Local_DTD_XXE.md",
+    "Important_Payloads/Hub.md",
+    "HTB_CBBH/CBBH_SS_STI.md",
+    "Resources/Important_Notes.md",
+    "HTB_CBBH/CBBH_SS_SSRF.md",
+    "HTB_CBBH/CBBH_Command_Injections.md",
+    "Portswigger/PS_Server_Side/PS_Injection/PS_SSTI.md",
+    "CBBH_FI_PHP_Filters.md",
+    "CBBH_File_Inclusion.md",
+    "CBBH_FI_LFI_&_File_Uploads.md",
+    "CBBH_FI_Bypasses_Filters.md",
+    "Important_Payloads/Important_Payloads_File_Inclusion.md",
+    "HTB_CBBH/CBBH_IDOR.md",
+    "HTB_CBBH/CBBH_Web_Attacks.md",
+    "Important_Payloads/Important_Payloads_XXE.md",
+    "images/Pasted image 20250319192554.png",
+    "images/Pasted image 20250320160248.png",
+    "images/Pasted image 20250320160220.png",
+    "images/Pasted image 20250320160000.png",
+    "CBBH_LI_Log_Poisoning.md",
+    "CBBH_LI_Automated_Tools.md",
+    "CBBH_FI_RFI.md",
+    "CBBH_FI_Vulnerable_Code.md",
+    "CBBH_FI_PHP_Wrappers.md",
+    "images/Pasted image 20250317211958.png",
+    "images/Pasted image 20250319170739.png",
+    "images/Pasted image 20250319143544.png",
+    "Important_Payloads",
+    "Misc",
+    "Portswigger/PS_Server_Side/PS_File_Upload_Vuln",
+    "PicoCTF2025",
+    "Portswigger/PS_Server_Side/PS_OSi",
+    "PicoGymCTF",
+    "VishwaCTF",
+    "Dreamhack/DH_Wargames/DH_WEB",
+    "ACECTF",
+    "HTB_CBBH",
     "Untitled.canvas"
   ]
 }
