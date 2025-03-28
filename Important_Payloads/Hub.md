@@ -9,3 +9,4 @@
 [[Important_Payloads_XSS]]
 [[Important_Payloads_CSRF]]
 [[Important_Commands_Content_Discovery]]
+[[Important_Payloads_Wordpress]]
