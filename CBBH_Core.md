@@ -1,0 +1,19 @@
+- Enumeration
+	- FFuF endpoints, VHOST, Subdir, file
+	- Whois
+	- Dig
+- Vuln
+	- XSS
+	- SQLi
+	- Command Injections
+	- File Upload
+	- File Inclusions
+	- CSRF
+	- XXE
+	- SSRF
+	- SSTI
+	- XSLT
+	- IDOR
+	- HTTP Verb
+	- Bad Credentials/Credentials Bruteforcing
+	- Wordpress
