@@ -4,165 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9e0a013b7e5ed3a0",
+        "id": "a104b8afe5230c04",
         "type": "tabs",
         "children": [
           {
-            "id": "ea1eb85bad670d33",
+            "id": "740d9a873d821c41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important_Payloads/Hub.md",
+                "file": "Important_Payloads/Important_Payloads_Broken_Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "f6c02e5be64876c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "915f0ad89e8049b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "4c906fb85ef4a6fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_CBBH/CBBH_Web_Attacks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CBBH_Web_Attacks"
-            }
-          },
-          {
-            "id": "fb169be2e60d0c86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "2b0047865c2f9fbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Important_Payloads_File_Inclusion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Important_Payloads_File_Inclusion"
-            }
-          },
-          {
-            "id": "c3a986bdb166f018",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "3fe36716c7973db5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Hub.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hub"
-            }
-          },
-          {
-            "id": "15aa28824a7a87b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Important_Payloads/Important_Payloads_CSRF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Important_Payloads_CSRF"
-            }
-          },
-          {
-            "id": "e7e9e6d5586a16e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB_CBBH/CBBH_PW_BF.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CBBH_PW_BF"
-            }
-          },
-          {
-            "id": "b12eb6d721df5d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CBBH_FI_PHP_Filters.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CBBH_FI_PHP_Filters"
+              "title": "Important_Payloads_Broken_Authentication"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rainbow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -215,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -316,15 +174,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aebde401ccfd26e8",
+  "active": "740d9a873d821c41",
   "lastOpenFiles": [
-    "CBBH_Core.md",
-    "Important_Payloads/Important_Payloads_CSRF.md",
     "Important_Payloads/Hub.md",
+    "Important_Payloads/Important_Payloads_PWD_BruteForce.pdf",
+    "Whitebox_Attacks.md",
+    "Important_Payloads/Important_Payloads_Broken_Authentication.md",
+    "HTB_CBBH/CBBH_Core.md",
+    "HTB_CBBH/CBBH_LI_Automated_Tools.md",
+    "HTB_CBBH/CBBH_FI_Bypasses_Filters.md",
+    "HTB_PenTest/Password_Cracking/PC_John_The_Ripper.md",
+    "HTB_PenTest/Cracking_PWDs_With_Hashcat/HTB_Hashing_Vs_Encryption.md",
+    "HTB_CBBH/CBBH_PW_BF.md",
+    "HTB_CBBH/CBBH_Command_Injections.md",
+    "Important_Payloads/Important_Payloads_PWD_BruteForce.md",
     "Important_Payloads/File_Inclusion_Module_Cheat_Sheet.pdf",
+    "Important_Payloads/Important_Payloads_CSRF.md",
     "Portswigger/PS_Server_Side/PS_Injection/PS_SSTI.md",
-    "Important_Payloads_Broken_Authentication.md",
-    "Important_Payloads_Wordpress.md",
+    "Important_Payloads/Important_Payloads_Wordpress.md",
     "Important_Payloads/Important_Payloads_File_Inclusion.md",
     "images/Pasted image 20250320212254.png",
     "Important_Payloads/Important_Commands_Content_Discovery.md",
@@ -336,22 +203,13 @@
     "HTB_CBBH/CBBH_SS_STI.md",
     "Resources/Important_Notes.md",
     "HTB_CBBH/CBBH_SS_SSRF.md",
-    "HTB_CBBH/CBBH_Command_Injections.md",
-    "CBBH_FI_PHP_Filters.md",
-    "CBBH_File_Inclusion.md",
-    "CBBH_FI_LFI_&_File_Uploads.md",
-    "CBBH_FI_Bypasses_Filters.md",
-    "HTB_CBBH/CBBH_IDOR.md",
-    "HTB_CBBH/CBBH_Web_Attacks.md",
-    "Important_Payloads/Important_Payloads_XXE.md",
+    "HTB_CBBH/CBBH_FI_PHP_Filters.md",
+    "HTB_CBBH/CBBH_File_Inclusion.md",
+    "HTB_CBBH/CBBH_FI_LFI_&_File_Uploads.md",
     "images/Pasted image 20250319192554.png",
     "images/Pasted image 20250320160248.png",
     "images/Pasted image 20250320160220.png",
     "images/Pasted image 20250320160000.png",
-    "CBBH_LI_Log_Poisoning.md",
-    "CBBH_LI_Automated_Tools.md",
-    "CBBH_FI_RFI.md",
-    "CBBH_FI_Vulnerable_Code.md",
     "images/Pasted image 20250317211958.png",
     "images/Pasted image 20250319170739.png",
     "images/Pasted image 20250319143544.png",
@@ -363,7 +221,6 @@
     "PicoGymCTF",
     "VishwaCTF",
     "Dreamhack/DH_Wargames/DH_WEB",
-    "ACECTF",
     "Untitled.canvas"
   ]
 }
