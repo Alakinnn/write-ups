@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important_Payloads/Important_Payloads_Broken_Authentication.md",
+                "file": "CBBH_Payloads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Important_Payloads_Broken_Authentication"
+              "title": "CBBH_Payloads"
+            }
+          },
+          {
+            "id": "27565609953b6546",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL_Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL_Injection"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,12 +189,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "740d9a873d821c41",
+  "active": "27565609953b6546",
   "lastOpenFiles": [
+    "SQL_Injection.md",
+    "CBBH_Payloads.md",
+    "images/Pasted image 20250406220258.png",
+    "Important_Payloads/Important_Payloads_Broken_Authentication.md",
+    "PS_XSS_Prep.md",
+    "XSS.md",
+    "images/Pasted image 20250406234435.png",
+    "images/Pasted image 20250406230121.png",
+    "images/Pasted image 20250406230039.png",
+    "Javascript_Deobfuscation.md",
+    "Attacking Web Applications with Ffuf.md",
+    "Information Gathering - Web Edition.md",
     "Important_Payloads/Hub.md",
     "Important_Payloads/Important_Payloads_PWD_BruteForce.pdf",
     "Whitebox_Attacks.md",
-    "Important_Payloads/Important_Payloads_Broken_Authentication.md",
     "HTB_CBBH/CBBH_Core.md",
     "HTB_CBBH/CBBH_LI_Automated_Tools.md",
     "HTB_CBBH/CBBH_FI_Bypasses_Filters.md",
@@ -199,20 +225,9 @@
     "images/Pasted image 20250320214859.png",
     "Important_Payloads/Important_Payloads_XSS.md",
     "Important_Payloads/Important_Payloads_SQL_Injection.md",
-    "Important_Payloads/Local_DTD_XXE.md",
-    "HTB_CBBH/CBBH_SS_STI.md",
-    "Resources/Important_Notes.md",
-    "HTB_CBBH/CBBH_SS_SSRF.md",
-    "HTB_CBBH/CBBH_FI_PHP_Filters.md",
-    "HTB_CBBH/CBBH_File_Inclusion.md",
-    "HTB_CBBH/CBBH_FI_LFI_&_File_Uploads.md",
     "images/Pasted image 20250319192554.png",
     "images/Pasted image 20250320160248.png",
     "images/Pasted image 20250320160220.png",
-    "images/Pasted image 20250320160000.png",
-    "images/Pasted image 20250317211958.png",
-    "images/Pasted image 20250319170739.png",
-    "images/Pasted image 20250319143544.png",
     "Important_Payloads",
     "Misc",
     "Portswigger/PS_Server_Side/PS_File_Upload_Vuln",

