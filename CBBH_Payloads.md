@@ -9,3 +9,4 @@
 
 ## Portswigger Practice
 [[PS_XSS_Prep]]
+[[PS_SQLi_Prep]]
