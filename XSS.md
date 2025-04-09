@@ -11,6 +11,14 @@ The most reliable method of detecting XSS vulnerabilities is manual code review,
 ## Credentials Stealing
 ### Step 1
 Set up an HTTP server, a netcat server might be rejected. Example:
+```shell-session
+alakin2504@htb[/htb]$ mkdir /tmp/tmpserver
+alakin2504@htb[/htb]$ cd /tmp/tmpserver
+alakin2504@htb[/htb]$ vi index.php #at this step we wrote our index.php file
+alakin2504@htb[/htb]$ sudo php -S 0.0.0.0:80
+PHP 7.4.15 Development Server (http://0.0.0.0:80) started
+```
+
 
 ```php
 <?php

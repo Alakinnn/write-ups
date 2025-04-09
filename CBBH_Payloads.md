@@ -6,7 +6,8 @@
 ## Exploitation
 [[XSS]]
 [[SQL_Injection]]
-
+[[SQLMap]]
+[[Command_Injections]]
 ## Portswigger Practice
 [[PS_XSS_Prep]]
 [[PS_SQLi_Prep]]
