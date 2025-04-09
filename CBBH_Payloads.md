@@ -8,6 +8,7 @@
 [[SQL_Injection]]
 [[SQLMap]]
 [[Command_Injections]]
+[[File_Uploads]]
 ## Portswigger Practice
 [[PS_XSS_Prep]]
 [[PS_SQLi_Prep]]

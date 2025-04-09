@@ -4,93 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "b951dd42cb4cdd37",
-        "type": "split",
+        "id": "3cfb8e10f3021f5b",
+        "type": "tabs",
         "children": [
           {
-            "id": "3cfb8e10f3021f5b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "aad292aa88a72feb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HTB_CBBH/CBBH_Command_Injections_Skill_Assessment.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CBBH_Command_Injections_Skill_Assessment"
-                }
-              }
-            ]
+            "id": "aad292aa88a72feb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CBBH_Payloads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CBBH_Payloads"
+            }
           },
           {
-            "id": "06590c46d36abe96",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "63fac67ffcb105a7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Command_Injections.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Command_Injections"
-                }
+            "id": "10dcf94819d61470",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File_Uploads.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "4c8a71293ef30844",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HTB_CBBH/CBBH_Command_Injections_Skill_Assessment.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "CBBH_Command_Injections_Skill_Assessment"
-                }
+              "icon": "lucide-file",
+              "title": "File_Uploads"
+            }
+          },
+          {
+            "id": "4502fcbd696ea8c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command_Injections.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "616635c22e2bdcc9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Command_Injections.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Command_Injections"
-                }
-              },
-              {
-                "id": "34c3a0f311868165",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "HTB_CBBH/Modules.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Modules"
-                }
-              }
-            ]
+              "icon": "lucide-file",
+              "title": "Command_Injections"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -244,18 +204,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63fac67ffcb105a7",
+  "active": "10dcf94819d61470",
   "lastOpenFiles": [
+    "File_Uploads.md",
     "CBBH_Payloads.md",
+    "Important_Payloads/Important_Payloads_XXE.md",
     "Command_Injections.md",
+    "Important_Payloads/Hub.md",
+    "Important_Payloads/File_Inclusion_Module_Cheat_Sheet.pdf",
+    "Resources/Resources_Hub.md",
+    "HTB_PenTest/Payload_And_Shells/Payloads_And_Shell.md",
+    "Resources/Important_Notes.md",
+    "Resources/My_Scripts.md",
+    "Resources/Oracle-Tools-setup.sh.md",
     "HTB_CBBH/CBBH_Command_Injections_Skill_Assessment.md",
+    "HTB_CBBH/CBBH_FI_PHP_Filters.md",
+    "HTB_CBBH/CBBH_FI_Bypasses_Filters.md",
+    "HTB_CBBH/CBBH_File_Inclusion.md",
+    "CBBH_FI_PHP_Wrappers.md",
+    "HTB_CBBH/CBBH_File_Inclusions.md",
     "HTB_CBBH/CBBH_Command_Injections.md",
     "HTB_CBBH/Modules.md",
     "images/Pasted image 20250307150322.png",
     "HTB_PenTest/Modules.md",
     "Important_Payloads/Important_Payloads_SQL_Injection.md",
-    "Important_Payloads/Hub.md",
-    "Important_Payloads/File_Inclusion_Module_Cheat_Sheet.pdf",
     "Access_Controls.md",
     "Attacking Web Applications with Ffuf.md",
     "Information Gathering - Web Edition.md",
@@ -263,23 +235,11 @@
     "Sql_Injection_Fundamentals_Module_Cheat_Sheet.pdf",
     "SQLMap.md",
     "README.md",
-    "PS_SQLi_Prep.md",
-    "PS_XSS_Prep.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_SQLi_Lab.md",
-    "XSS.md",
-    "Portswigger/PS_Server_Side/PS_Injection/PS_SQLi/PS_Blind_Attack.md",
     "images/Pasted image 20250406220258.png",
-    "Important_Payloads/Important_Payloads_Broken_Authentication.md",
     "images/Pasted image 20250406234435.png",
     "images/Pasted image 20250406230121.png",
     "images/Pasted image 20250406230039.png",
-    "Javascript_Deobfuscation.md",
     "Important_Payloads/Important_Payloads_PWD_BruteForce.pdf",
-    "Whitebox_Attacks.md",
-    "HTB_CBBH/CBBH_Core.md",
-    "HTB_CBBH/CBBH_LI_Automated_Tools.md",
-    "HTB_CBBH/CBBH_FI_Bypasses_Filters.md",
-    "HTB_PenTest/Password_Cracking/PC_John_The_Ripper.md",
     "images/Pasted image 20250320212254.png",
     "images/Pasted image 20250320214946.png",
     "images/Pasted image 20250320214859.png",

