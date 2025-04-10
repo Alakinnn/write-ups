@@ -25,3 +25,6 @@ Just use Referer: https://r80jbhuq4svofeubo41rcv8hq8wzkp8e.oastify.com/
 - Obfuscate blocked strings using URL encoding or case variation.
 - Provide a URL that you control, which redirects to the target URL. Try using different redirect codes, as well as different protocols for the target URL. For example, switching from an `http:` to `https:` URL during the redirect has been shown to bypass some anti-SSRF filters.
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md
+
+![[Pasted image 20250410172855.png]]
+Case bypass
