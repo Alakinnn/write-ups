@@ -9,6 +9,7 @@
 [[SQLMap]]
 [[Command_Injections]]
 [[File_Uploads]]
+[[Server-side Attacks]]
 ## Portswigger Practice
 [[PS_XSS_Prep]]
 [[PS_SQLi_Prep]]

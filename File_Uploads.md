@@ -41,7 +41,7 @@
 |`DoS`|ZIP, JPG, PNG|
 ![[Pasted image 20250410132715.png]]
 ## Injections in File Name
-
+z
 name a file `file$(whoami).jpg` or ``file`whoami`.jpg`` or `file.jpg||whoami`
 
 **Simple .NET shell**
