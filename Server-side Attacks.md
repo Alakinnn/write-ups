@@ -26,5 +26,25 @@ Just use Referer: https://r80jbhuq4svofeubo41rcv8hq8wzkp8e.oastify.com/
 - Provide a URL that you control, which redirects to the target URL. Try using different redirect codes, as well as different protocols for the target URL. For example, switching from an `http:` to `https:` URL during the redirect has been shown to bypass some anti-SSRF filters.
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md
 
-![[Pasted image 20250410172855.png]]
-Case bypass
+#### Case Bypass![[Pasted image 20250410172855.png]]
+## Redirection
+Some applications perform local redirection instead of direct nagivation
+
+We can exploit this to perform SSRF. Given a page has this redirection:
+```
+/product/nextProduct?path=...
+```
+And an API that fetches local API
+
+```
+product?....
+```
+
+https://portswigger.net/web-security/ssrf/lab-ssrf-filter-bypass-via-open-redirection
+
+# SSTI
+[[SSTI_ALL]]
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/Python.md
+
+# SSI
+Server-Side Includes (SSI) is a technology web applications use to create dynamic content on HTML pages. SSI is supported by many popular web servers such as [Apache](https://httpd.apache.org/docs/current/howto/ssi.html) and [IIS](https://learn.microsoft.com/en-us/iis/configuration/system.webserver/serversideinclude). The use of SSI can often be inferred from the file extension. Typical file extensions include `.shtml`, `.shtm`, and `.stm`. However, web servers can be configured to support SSI directives in arbitrary file extensions. As such, we cannot conclusively conclude whether SSI is used only from the file extension.

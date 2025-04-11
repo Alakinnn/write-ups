@@ -1,3 +1,6 @@
+![[diagram.webp]]
+
+ the payload `{{7*'7'}}`the result will be `7777777`, while in Twig, the result will be `49`.
 # All-in-One Error Command
 ```
 	${{<%[%'"}}%\
