@@ -263,7 +263,7 @@ Finally, we can include the session file and use the `&cmd=id` to execute a co
   
 ![Shipping containers and cranes at a port with PHP notice about an undefined variable.](https://academy.hackthebox.com/storage/modules/23/rfi_session_id.png)
 
-## Server Log Poisoning
+# Server Log Poisoning (RCE PAYLOAD MUST BE 'cmd' AND  NOT "cmd")
 Once poisoned, we need to include the logs through the LFI vulnerability, and for that we need to have read-access over the logs. `Nginx` logs are readable by low privileged users by default (e.g. `www-data`), while the `Apache` logs are only readable by users with high privileges (e.g. `root`/`adm` groups). However, in older or misconfigured `Apache` servers, these logs may be readable by low-privileged users.
 
 By default, `Apache` logs are located in `/var/log/apache2/` on Linux and in `C:\xampp\apache\logs\` on Windows, while `Nginx` logs are located in `/var/log/nginx/` on Linux and in `C:\nginx\log\` on Windows. However, the logs may be in a different location in some cases, so we may use an [LFI Wordlist](https://github.com/danielmiessler/SecLists/tree/master/Fuzzing/LFI) to fuzz for their locations, as will be discussed in the next section.
@@ -277,9 +277,13 @@ As expected, our custom User-Agent value is visible in the included log file. No
 We may also poison the log by sending a request through cURL, as follows:
 
 ```shell-session
-alakin2504@htb[/htb]$ curl -s "http://<SERVER_IP>:<PORT>/index.php" -A "<?php system($_GET['cmd']); ?>"
+alakin2504@htb[/htb]$ curl -s "http://83.136.249.199:40256/index.php" -A "<?php system($_GET['cmd']); ?>"
 ```
 
+alternative payload
+```
+User-Agent: <?php system('cat /flag_dacc60f2348d.txt'); ?>
+```
 As the log should now contain PHP code, the LFI vulnerability should execute this code, and we should be able to gain remote code execution. We can specify a command to be executed with (`&cmd=id`): ![HTTP request and response showing Apache log poisoning with PHP code execution using system command.](https://academy.hackthebox.com/storage/modules/23/rfi_id_repeater.png)
 
 We see that we successfully executed the command. The exact same attack can be carried out on `Nginx` logs as well.
