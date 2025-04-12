@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 223.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +177,11 @@
   },
   "active": "d6cadd44aeca644d",
   "lastOpenFiles": [
+    "HTB_CBBH/CBBH_File_Inclusion.md",
+    "HTB_CBBH/CBBH_File_Inclusions.md",
+    "File_Inclusions.md",
     "CBBH_Payloads.md",
     "File_Uploads.md",
-    "File_Inclusions.md",
-    "HTB_CBBH/CBBH_File_Inclusions.md",
     "Web_Attacks.md",
     "Pasted image 20250411141549.png",
     "Pasted image 20250411134707.png",
@@ -213,7 +214,6 @@
     "HTB_PenTest/File_Transfers/Windows_FT_Methods.md",
     "Portswigger/PS_FUV_Path_Traversal.md",
     "Time_To_Learn.md",
-    "Portswigger/PS_Server_Side/PS_File_Upload_Vuln/PS_File_Upload_Vuln.md",
     "images/Pasted image 20250307150322.png",
     "Sql_Injection_Fundamentals_Module_Cheat_Sheet.pdf",
     "images/Pasted image 20250406220258.png",
