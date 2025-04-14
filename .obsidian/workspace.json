@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File_Inclusions.md",
+                "file": "CBBH_Payloads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File_Inclusions"
+              "title": "CBBH_Payloads"
+            }
+          },
+          {
+            "id": "7a880de8f494efb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session_Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Session_Security"
+            }
+          },
+          {
+            "id": "a66cbd80a1cf6e0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPTS_Payloads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CPTS_Payloads"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,12 +204,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6cadd44aeca644d",
+  "active": "7a880de8f494efb8",
   "lastOpenFiles": [
+    "CBBH_Payloads.md",
+    "XSS.md",
+    "CPTS_Payloads.md",
+    "Session_Security.md",
+    "Pivoting, Tunneling, and Port Forwarding.md",
+    "File_Inclusions.md",
     "HTB_CBBH/CBBH_File_Inclusion.md",
     "HTB_CBBH/CBBH_File_Inclusions.md",
-    "File_Inclusions.md",
-    "CBBH_Payloads.md",
     "File_Uploads.md",
     "Web_Attacks.md",
     "Pasted image 20250411141549.png",
@@ -197,7 +230,6 @@
     "HTB_CBBH/CBBH_Server-Side_Attacks.md",
     "Portswigger/PS_Server_Side/PS_Injection/SSTI_ALL.md",
     "HTB_CBBH/CBBH_SS_SSRF.md",
-    "XSS.md",
     "SQLMap.md",
     "Pasted image 20250411111427.png",
     "Server_Side_Attacks_Module_Cheat_Sheet.pdf",
@@ -211,9 +243,6 @@
     "Command_Injections.md",
     "HTB_CBBH/CBBH_Attacking_Web_Application_With_ffuz.md",
     "HTB_CBBH/CBBH_Command_Injections.md",
-    "HTB_PenTest/File_Transfers/Windows_FT_Methods.md",
-    "Portswigger/PS_FUV_Path_Traversal.md",
-    "Time_To_Learn.md",
     "images/Pasted image 20250307150322.png",
     "Sql_Injection_Fundamentals_Module_Cheat_Sheet.pdf",
     "images/Pasted image 20250406220258.png",
