@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web_Services_&_API_Attacks.md",
+                "file": "Hacking_Wordpress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web_Services_&_API_Attacks"
+              "title": "Hacking_Wordpress"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSDL_File_Breakdown.md",
+                "file": "CBBH_Payloads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WSDL_File_Breakdown"
+              "title": "CBBH_Payloads"
+            }
+          },
+          {
+            "id": "0f802fc6d040c2e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Broken_Authentication.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Broken_Authentication"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -189,12 +204,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7392964954b5844e",
+  "active": "0f802fc6d040c2e0",
   "lastOpenFiles": [
-    "WSDL_File_Breakdown.md",
-    "Web_Services_&_API_Attacks.md",
+    "Broken_Authentication.md",
     "CBBH_Payloads.md",
     "CPTS_Payloads.md",
+    "WSDL_File_Breakdown.md",
+    "Hacking_Wordpress.md",
+    "1.webp",
+    "1 1.webp",
+    "Web_Services_&_API_Attacks.md",
     "Pasted image 20250411141549.png",
     "images/Pasted image 20250411134707.png",
     "images/Pasted image 20250411111427.png",
@@ -222,15 +241,11 @@
     "SQLMap.md",
     "Server_Side_Attacks_Module_Cheat_Sheet.pdf",
     "HTB_CBBH/CBBH_SS_XSLTi.md",
-    "HTB_CBBH/CBBH_SS_STI.md",
     "diagram.webp",
     "images/Pasted image 20250410132715.png",
     "images/Pasted image 20250410132814.png",
     "images/Pasted image 20250410132733.png",
-    "Command_Injections.md",
-    "images/Pasted image 20250307150322.png",
     "Sql_Injection_Fundamentals_Module_Cheat_Sheet.pdf",
-    "images/Pasted image 20250406220258.png",
     "Important_Payloads",
     "Misc",
     "Portswigger/PS_Server_Side/PS_File_Upload_Vuln",

