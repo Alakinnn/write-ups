@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "escape",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -103,8 +103,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,21 +203,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f802fc6d040c2e0",
+  "active": "aebde401ccfd26e8",
   "lastOpenFiles": [
-    "Broken_Authentication.md",
     "CBBH_Payloads.md",
+    "Login_Brute_Forcing.md",
+    "Broken_Authentication.md",
+    "Command_Injections.md",
+    "Web_Services_&_API_Attacks.md",
+    "HTB_PenTest/Footprinting/Protocol_Enumeration/SMTP.md",
+    "Session_Security.md",
+    "PS_XSS_Prep.md",
+    "PicoGymCTF/NoSQL_Injection.md",
+    "Important_Payloads/Important_Payloads_CSRF.md",
+    "HTB_PenTest/Attacking_Common_Services/HTB_Attacking_SQL_Databases.md",
+    "HTB_PenTest/Attacking_Common_Services/HTB_Attacking_FTP.md",
+    "HTB_PenTest/Attacking_Common_Services/HTB_Attacking_Email_Services.md",
+    "HTB_PenTest/Attacking_Common_Services/HTB_ACS.md",
+    "HTB_CBBH/CBBH_XXE.md",
+    "HTB_Machine/Cap.md",
     "CPTS_Payloads.md",
     "WSDL_File_Breakdown.md",
     "Hacking_Wordpress.md",
     "1.webp",
     "1 1.webp",
-    "Web_Services_&_API_Attacks.md",
     "Pasted image 20250411141549.png",
     "images/Pasted image 20250411134707.png",
     "images/Pasted image 20250411111427.png",
     "images/Pasted image 20250410172855.png",
-    "Session_Security.md",
     "XSS.md",
     "Pivoting, Tunneling, and Port Forwarding.md",
     "File_Inclusions.md",
@@ -226,21 +237,9 @@
     "HTB_CBBH/CBBH_File_Inclusions.md",
     "File_Uploads.md",
     "Web_Attacks.md",
-    "Important_Payloads/Important_Payloads_Broken_Authentication.md",
-    "Server-side Attacks.md",
-    "Important_Payloads/Hub.md",
     "Important_Payloads/Important_Payloads_PWD_BruteForce.pdf",
     "Important_Payloads/File_Inclusion_Module_Cheat_Sheet.pdf",
-    "Login_Brute_Forcing.md",
-    "HTB_CBBH/Modules.md",
-    "HTB_CBBH/CBBH_PW_BF.md",
-    "CBBH_FI_PHP_Wrappers.md",
-    "HTB_CBBH/CBBH_Server-Side_Attacks.md",
-    "Portswigger/PS_Server_Side/PS_Injection/SSTI_ALL.md",
-    "HTB_CBBH/CBBH_SS_SSRF.md",
-    "SQLMap.md",
     "Server_Side_Attacks_Module_Cheat_Sheet.pdf",
-    "HTB_CBBH/CBBH_SS_XSLTi.md",
     "diagram.webp",
     "images/Pasted image 20250410132715.png",
     "images/Pasted image 20250410132814.png",

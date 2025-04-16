@@ -14,3 +14,5 @@ I reuse the same credentials for SSH service which works and gave me the first f
 and then perform linux priv esc https://gtfobins.github.io/gtfobins/python/?source=post_page-----eb9c97f2259c---------------------------------------#capabilities
 
 ![[Pasted image 20250223134056.png]]
+
+getcap -r / 2>/dev/null

